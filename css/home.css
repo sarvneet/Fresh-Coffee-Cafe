@@ -1,0 +1,73 @@
+/* CSS styling */
+body {
+	background-color: #030303;
+    font-family: 'Great Vibes', arial, sans-serif;
+}
+/* navbar */
+nav {
+	background-color: #030303;
+    background-image: linear-gradient(black, black); /* Standard syntax (must be last) */
+}
+
+.navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-nav a.nav-link.visited {
+	color: #e4572e;
+	font-weight: 800;
+	font-size: 2em;
+}
+
+.navbar-light .navbar-nav a.nav-link.hover{
+	color: #030303;
+}
+
+.navbar-light .navbar-nav a.nav-link.active {
+	color: #030303;
+	text-decoration: underline;
+}
+
+/* homepage */
+.carousel-item {
+	height: 90vh;
+	width: 99vw;
+	color: #fff;
+}
+
+/*.slide1 {
+	background-image: url(../images/coffee.jpg);
+	background-size: cover;
+	background-position: center;
+	opacity: 0.3;
+}
+
+.slide2 {
+	background-image: url(../images/coffee-beans.jpg);
+	background-size: cover;
+	background-position: center;
+	opacity: 0.3;
+}
+
+.slide3 {
+	background-image: url(../images/coffee-machine.jpg);
+	background-size: cover;
+	background-position: center;
+	opacity: 0.3;
+}
+
+.carousel-item h1 .autotext {
+	padding: 20vh;
+}*/
+
+h1 {
+	font-size: 20vh 20vw;
+}
+
+@keyframes slide {
+	0% { 
+		opacity: 0;
+		transform: translateY(70%);
+	}
+	100% { 
+		   opacity: 1;
+		   transform: translateY(0%);
+	}
+}

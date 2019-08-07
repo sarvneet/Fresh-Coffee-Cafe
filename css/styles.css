@@ -1,0 +1,211 @@
+/* impost fonts fonts*/
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes');
+
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. body
+	h1, .heading
+	hr.style11
+	2. nav
+		2.1 .navbar-light .navbar-nav .nav-link,
+			.navbar-light .navbar-nav a.nav-link.visited
+			.navbar-light .navbar-nav a.nav-link.hover
+			.navbar-light .navbar-nav a.nav-link.active
+	3. .home
+		3.1 .carousel
+			.carousel .carousel-inner
+			.carousel .carousel-inner img
+	4. .aboutus
+		4.1 .aboutus p
+	5. .menu
+		5.1 .menu table thead,
+		    .menu table tbody
+	6. .location
+		6.1 .location ul li
+		6.2 .map
+			.map iframe
+	7.	.contactus
+	8. .socialicon
+	9.	footer
+	10. @keyframes slide
+		10.1 slide
+	11. @media for .autoText
+-------------------------------------------------------------------*/
+
+/* CSS styling */
+body {
+	background-color: #030303;
+    font-family: 'Oswald', arial, sans-serif;
+    color: #fff;
+}
+
+/* all headings font*/
+h1, .heading {
+	font-family: 'Great Vibes', arial, sans-serif;
+}
+
+.heading {
+	font-size: 3em;
+	font-weight: 800;
+	text-align: center;
+}
+
+hr.style11 {
+	height: 6em;
+	background: #e1e1e1 url(../images/texture.jpg) repeat-x 0 0;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 0;
+}
+
+/* navbar */
+nav {
+	background-color: #EEC643;;
+}
+
+.navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-nav a.nav-link.visited {
+	color: #e4572e;
+	font-size: 2em;
+}
+
+.navbar-light .navbar-nav a.nav-link.hover{
+	color: #030303;
+}
+
+.navbar-light .navbar-nav a.nav-link.active {
+	color: #030303;
+	text-decoration: underline;
+}
+
+/* homepage */
+.home {
+	position: relative;
+}
+
+.carousel {
+    width: 100%;
+    overflow:hidden;
+}
+
+.carousel .carousel-inner {
+    height: auto;    
+}
+
+.carousel .carousel-inner img {
+    display: block;
+    object-fit: cover;
+    opacity: 0.4;
+}
+
+/* aboutus */
+.aboutus {
+	background-color: #030303;
+	background-image: url(../images/background.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	padding: 6em 6em;
+	color: #030303;
+}
+
+.aboutus p {
+	font-size: 2em;
+}
+
+/* menu */
+.menu {
+	padding: 6em 6em;
+}
+
+.menu table thead,
+.menu table tbody {
+	font-size: 1.5em;
+}
+
+/* location */
+.location {
+	padding: 6em 6em;
+	background-color: #ffffff;
+	color: #030303;
+}
+
+.location ul li {
+	list-style-type: none;
+}
+
+.map {
+    position: relative;
+    padding-bottom: 30.25%;
+    padding-top: 25px;
+    height: 0;
+}
+
+.map iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Contact Us */
+.contactus {
+	padding-left: 2em;
+	padding-right: 2em;
+}
+
+/* footer */
+.footer {
+	padding: 3em 3em;
+}
+
+.socialicon {
+	padding: 2em 2em;
+}
+/* add slide animation to all the container-fluid */
+@keyframes slide {
+	0% { 
+		opacity: 0;
+		transform: translateY(70%);
+	}
+
+	100% { 
+		   opacity: 1;
+		   transform: translateY(0%);
+	}
+}
+
+.slide {
+	animation-name: slide;
+	animation-duration: 1s;
+}
+
+@media screen and (min-width:30em) {
+	.autoText {
+		margin-top: -5em;
+	}
+}
+
+@media screen and (min-width:48em) {
+	.autoText {
+		margin-top: -6em;
+	}
+}
+
+@media screen and (min-width: 60em){
+	.autoText {
+		margin-top: -7em;
+		font-size: 2.5em;
+	}
+}
+
+@media screen and (min-width: 72.5em){
+	.autoText {
+		margin-top: -7em;
+		font-size: 3.5em;
+	}
+}
