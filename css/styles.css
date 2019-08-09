@@ -61,7 +61,9 @@ hr.style11 {
 }
 
 /* navbar */
-
+nav {
+	background-color: #ffffff;
+}
 .navbar-light .navbar-nav .nav-link,
 .navbar-light .navbar-nav a.nav-link.visited {
 	color: #e4572e;
