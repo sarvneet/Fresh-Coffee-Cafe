@@ -36,7 +36,7 @@
 
 /* CSS styling */
 body {
-	background-color: #030303;
+    background-color: #030303;
     font-family: 'Oswald', arial, sans-serif;
     color: #fff;
 }
@@ -61,9 +61,6 @@ hr.style11 {
 }
 
 /* navbar */
-nav {
-	background-color: #EEC643;;
-}
 
 .navbar-light .navbar-nav .nav-link,
 .navbar-light .navbar-nav a.nav-link.visited {
