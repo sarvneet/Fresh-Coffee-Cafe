@@ -62,7 +62,7 @@ hr.style11 {
 
 /* navbar */
 nav {
-	background-color: #030303;
+	background-color: #ffffff;
 }
 .navbar-light .navbar-nav .nav-link,
 .navbar-light .navbar-nav a.nav-link.visited {
@@ -71,11 +71,11 @@ nav {
 }
 
 .navbar-light .navbar-nav a.nav-link.hover{
-	color: #ffffff;
+	color: #030303;
 }
 
 .navbar-light .navbar-nav a.nav-link.active {
-	color: #ffffff;
+	color: #030303;
 	text-decoration: underline;
 }
 
